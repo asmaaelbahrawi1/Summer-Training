@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+.main-card{
+    background-color:  hsl(0, 0%, 100%);
+    width: 350px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px black;
+    padding: 20px;
+
+   /* center card vertically and horizental */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.main-card__img{
+    display: block;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+   
+}
+.main-card__button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    margin-top: 23px;
+    font-family: Figtree;
+    font-weight: 800;
+}
+.main-card__date{
+    color:hsl(0, 0%, 7%);
+    font-family: Figtree;
+    font-weight: 500;
+    font-size: 14px;
+
+
+}
+.main-card__secondrypara{
+    font-size: 24px;
+    font-weight: 800;
+}
+.main-card__primarypara{
+    color:hsl(0, 0%, 42%);
+    font-size: 16px;
+    font-family: Figtree;
+
+}
+.container{
+    display: flex;
+}
+.container-img{
+    width: 30px;
+}
+.container-span{
+    font-weight: 800;
+}
+
+.container-div{
+    margin-left: 11px;
+    margin-top: 7px;
+}
+
+.main-card__secondrypara:hover{
+    color:hsl(47, 88%, 63%);
+}
+.hover-link{
+    text-decoration: none;
+    color:hsl(0, 0%, 7%)
+}

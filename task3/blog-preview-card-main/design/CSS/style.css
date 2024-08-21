@@ -1,0 +1,91 @@
+@media (min-width: 320px) and (max-width: 480px) { 
+    body{
+        width: 375px;
+    }
+    
+      }
+@media (min-width: 1025px) and (max-width: 1200px) { 
+    body{
+        width: 1440px;
+    }
+    
+} 
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+.main-card{
+    background-color:  hsl(0, 0%, 100%);
+    width: 350px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px black;
+    padding: 20px;
+
+   /* center card vertically and horizental */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.main-img{
+    display: block;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+   
+}
+.learn-button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    margin-top: 23px;
+    font-family: Figtree;
+    font-weight: 800;
+}
+.puplished-date{
+    color:hsl(0, 0%, 7%);
+    font-family: Figtree;
+    font-weight: 500;
+    font-size: 14px;
+
+
+}
+.main-para{
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-description{
+    color:hsl(0, 0%, 42%);
+    font-size: 16px;
+    font-family: Figtree;
+
+}
+.avatar-img{
+    width: 30px;
+}
+.name{
+    font-weight: 800;
+}
+.big{
+    display: flex;
+}
+.div-name2{
+    margin-left: 11px;
+    margin-top: 7px;
+}
+
+.main-para:hover{
+    color:hsl(47, 88%, 63%);
+}
+.hover-link{
+    text-decoration: none;
+    color:hsl(0, 0%, 7%)
+}
