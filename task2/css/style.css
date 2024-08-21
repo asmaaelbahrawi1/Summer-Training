@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    align-items: center;
+}
+.welcome-statment{
+    color:darkred;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.skip-button{
+    border: 1px solid darkred;
+    background-color: darkred;
+    border-radius: 5px;
+    padding: 10px;
+}
+.skip-link{
+    text-decoration: none;
+    color: white;
+}

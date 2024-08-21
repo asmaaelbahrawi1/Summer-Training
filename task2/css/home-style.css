@@ -1,0 +1,46 @@
+.header{
+    text-align: center;
+    color:darkred;
+}
+.personal-photo{
+    width: 212px;
+    height: 244px;
+    margin-left: 900px;
+}
+.top{
+    margin-left: 1400px;
+    width: 30px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-links{
+    align-items: center;
+    text-align: center;
+    background-color: bisque;
+    height: 150px;
+}
+.copyright{
+    text-align: center;
+    color:darkred;
+}
